@@ -1,5 +1,5 @@
 # micronet_challenge_2019
-Submission for the 2019 Micronet Challenge.
+Submission for the [2019 Micronet Challenge](https://micronet-challenge.github.io).
 
 ### Solution Outline
 Took a pretty simple approach. Used a [NasNet-A](https://arxiv.org/pdf/1707.07012.pdf) architecture and trained using gradient clipping, cutout, and learning rate cosine annealing. No quantization was used.
