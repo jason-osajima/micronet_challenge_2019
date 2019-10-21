@@ -5,7 +5,6 @@ Submission for the [2019 Micronet Challenge](https://micronet-challenge.github.i
 Took a pretty simple approach. Used a [NasNet-A](https://arxiv.org/pdf/1707.07012.pdf) architecture and trained using gradient clipping, cutout, and learning rate cosine annealing. No quantization was used.
 
 ### Results
- 638384032 and adds: 635523680
 Accuracy on Cifar100 Test Set was 81.2800%. Total number of parameters was ~5.2M and parameter score after freebie quantization and 0.07153. Total mults was ~662M and total adds was ~659M and operations score after freebie quantization for mults was 0.09441. Total score was **0.16594283**
 
 ### Verify Results
